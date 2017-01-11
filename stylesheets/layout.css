@@ -7,13 +7,6 @@
 * 6/20/2012
 */
 
-/* Table of Content
-==================================================
-	#Site Styles
-	#Page Styles
-	#Media Queries
-	#Font-Face */
-
 /* #Site Styles
 ================================================== */
 	/* Yleiset */
@@ -31,7 +24,8 @@
 		}
 
 		body * {
-			font-family: 'Open Sans', sans-serif;
+			/*font-family: 'Open Sans', sans-serif;*/
+			font-family: 'Raleway', sans-serif;
 
 		}
 
@@ -129,14 +123,14 @@
 
 	/* mainHeaderBand, logo, mainNavBar */
 		div.mainHeaderBand {
-			background: linear-gradient(#fff, #fdfdfd);
+			/*background: linear-gradient(#fff, #fdfdfd);*/
 			position: relative;
 			width: 100%;
 			z-index: 1;
 			padding: 7px 0;
-			box-shadow: 0 3px 1px #eee;
+			/*box-shadow: 0 3px 1px #eee;
 			-moz-box-shadow: 0 3px 1px #eee;
-			-webkit-box-shadow: 0 3px 1px #eee;
+			-webkit-box-shadow: 0 3px 1px #eee;*/
 		}
 
 		.logo h1 {
