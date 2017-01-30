@@ -121,22 +121,19 @@
 
 	/* mainHeaderBand, logo, mainNavBar */
 		div.mainHeaderBand {
-			/*background: linear-gradient(#fff, #fdfdfd);*/
-			position: relative;
+			position: fixed;
 			width: 100%;
 			z-index: 1;
 			padding: 7px 0;
-			/*box-shadow: 0 3px 1px #eee;
-			-moz-box-shadow: 0 3px 1px #eee;
-			-webkit-box-shadow: 0 3px 1px #eee;*/
+			background-color: #fff;
 		}
 
 		.logo h1 {
+			font-family: 'Ubuntu Mono', monospace;
 			position: relative;
 			color: #0f0f0f;
 			text-align: center;
 			margin: 0;
-			text-shadow: 0 4px 2px #eee;
 		}
 
 		.logo a {
@@ -154,7 +151,6 @@
 		.mainNavBar ul li {
 			float: right;
 			padding: 0 1em;
-			border-right: 1px solid #9f9f9f;
 		}
 
 		.mainNavBar ul li:first-child {
@@ -164,11 +160,10 @@
 		.mainNavBar ul li a {
 			color: #0f0f0f;
 			text-decoration: none;
-			font-size: 2em;
+			font-size: 1.5em;
 			line-height: 150%;
 			font-weight: 300;
-			letter-spacing: 1px;
-			text-shadow: 0 4px 2px #eee;
+			font-family: 'Ubuntu Mono', monospace;
 		}
 
 		.mainNavBar ul li a:hover {
@@ -178,6 +173,7 @@
 	/* focusText */
 		.focusText {
 			position: relative;
+			margin-top: 200px;
 		}
 
 		.focusText h1 {
@@ -385,7 +381,7 @@
 		}
 
 		.cvBand {
-			background-color: #fff;
+			background-color: #f9f9f9;
 		}
 
 	/* Full screen */
