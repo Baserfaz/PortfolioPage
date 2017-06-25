@@ -18,16 +18,13 @@
 
 	<!-- CSS
   ================================================== -->
-	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/normalize.css">
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
-	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
 	<link rel="stylesheet" href="af/css/font-awesome.min.css">
-	<!--<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>-->
-	<!--<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">-->
+	<link rel="stylesheet" href="stylesheets/lightbox.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
-	<link href="stylesheets/lightbox.css" rel="stylesheet">
-
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -42,7 +39,7 @@
 
 	<!-- Only for study purposes, otherwise get out! :-) -->
 
-	<div class="mainHeaderBand">
+	<div id="mainHeaderBand">
 
 		<div class="container">
 
@@ -56,14 +53,14 @@
 
 			</div>
 
-			<div class="fourteen columns navigation">
+			<div class="ten columns navigation">
 
 				<nav class="mainNavBar">
 
 					<ul>
 						<li><a href="http://baserfaz.github.io/Projects/">Projektit</a></li>
 						<li><a href="http://baserfaz.github.io/unityBlog/">Unity3D Blog</a></li>
-						<li><a href="#contactAnkkuri">Ota yhteytt&auml;</a></li>
+						<li><a href="#contactAnkkuri">Ota yhteyttä</a></li>
 						<li><a href="#portfolioAnkkuri">Portfolio</a></li>
 						<li><a href="#cvAnkkuri">CV</a></li>
 
@@ -83,7 +80,7 @@
 
 			<div id="top"></div>
 
-			<div class="sixteen columns">
+			<div class="twelve columns">
 
 				<h1>Morjens!</h1>
 				<p>Olen opiskelijapoika Oulusta ja harrastan peliohjelmointia ja kitaransoittoa.
@@ -95,153 +92,175 @@
 
 	</div> <!-- end focusTextBand -->
 
-	<div class="cvBand">
+	<div id="cvBand">
 
 		<div class="container">
 
-			<div class="sixteen columns">
+			<div class="twelve columns">
 
 				<div id="cvAnkkuri"></div>
 
 				<div class="cvStyle clearfix">
 
-					<header class="sixteen columns">
+					<header class="twelve columns">
 
 						<h1>Curriculum Vitae</h1>
 
 					</header>
+						
+					<div id="cvme" class="twelve columns">
 
-					<div class="sixteen columns">
+						<h4>Nimi: Heikki Heiskanen</h4>
+						<h4>Postiosoite: 90570 Oulu</h4>
+						<h4>Titteli: Opiskelija</h4>
+						<h4>Ikä: 23</h4>
+						<h4>Email: heikkiheiskanen (at) <wbr>hotmail (dot) com</h4>
 
-						<h3>Nimi: Heikki Heiskanen</h3>
-						<h3>Postiosoite: 90570 Oulu</h3>
-						<h3>Titteli: Opiskelija</h3>
-						<h3>Ik&auml;: 23</h3>
-						<h3>Email: heikkiheiskanen(at)<wbr>hotmail.com</h3>
-
-					</div>
-
-					<hr/>
-
-
-					<div class="four columns alpha"><!-- Koulutus -->
-
-						<h2>Koulutus</h2>
+						<hr/>
 
 					</div>
 
-					<div class="twelve columns omega">
+					<div class="twelve columns cvContent">
 
-						<h3>Hauholan Yl&auml;aste Kajaani, -2009</h3>
-						<p>Peruskoulu.</p>
+						<div class="four columns">
 
-						<h3>ICT-Lukio Kajaani, 2009-2013</h3>
-						<p>Tietoliikenneasentaja ja ylioppilas (kolmoistutkinto) suoritettu samanaikaisesti. Lis&auml;&auml; tietoa alla molemmista.</p>
+							<h2>Koulutus</h2>
 
-						<h3>Kajaanin Lukio, 2009-2013</h3>
-						<p>Ylioppilaaksi vuonna 2013. Kirjoitin pitk&auml;n matematiikan, pitk&auml;n fysiikan, &auml;idinkielen, englannin ja keskipitk&auml;n ruotsin hyv&auml;ksytysti.</p>
+						</div>
 
-						<h3>Kainuun Ammattiopisto 2009-2013</h3>
-						<p>Koulutuksen keskeisimpi&auml; oppiaineita olivat elektroniikka, sulautetut järjestelmät ja tietoliikennetekniikka. N&auml;ytt&ouml;ty&ouml;n&auml; tein mikroprosessorilla uudelleen ohjelmoitavan LED-taulun. Projektiin suunnittelin kolmetoista segmenttisen näytön (vrt. Fourteen-segment display).</p>
+						<div class="eight columns cvContent-text">
 
-						<h3>Oulun Yliopisto, Tietojenk&auml;sittelytiede, 2013-</h3>
-						<p>Aloitin opintoni syksyll&auml; 2013. Kandidaatintyö tehty aiheesta: Hakukoneoptimointi Googlen hakukoneella.</p>
+							<h4>Hauholan Yläaste Kajaani, -2009</h4>
+							<p>Peruskoulu.</p>
 
-					</div><!-- end koulutus -->
+							<h4>ICT-Lukio Kajaani, 2009-2013</h4>
+							<p>Tietoliikenneasentaja ja ylioppilas (kolmoistutkinto) suoritettu samanaikaisesti. Lisää tietoa alla molemmista.</p>
 
+							<h4>Kajaanin Lukio, 2009-2013</h4>
+							<p>Ylioppilaaksi vuonna 2013. Kirjoitin pitkän matematiikan, pitkän fysiikan, äidinkielen, englannin ja keskipitkän ruotsin hyväksytysti.</p>
 
-					<hr/>
+							<h4>Kainuun Ammattiopisto 2009-2013</h4>
+							<p>Koulutuksen keskeisimpiä oppiaineita olivat elektroniikka, sulautetut järjestelmät ja tietoliikennetekniikka. Näyttötyönä tein mikroprosessorilla uudelleen ohjelmoitavan LED-taulun. Projektiin suunnittelin kolmetoista segmenttisen näytön (vrt. Fourteen-segment display).</p>
 
-					<div class="four columns alpha"><!-- tyokokemus -->
+							<h4>Oulun yliopisto, Tietojenkäsittelytiede, Kandidaatti, 2013-2017</h4>
+							<p>Aloitin opintoni syksyllä 2013. Kandidaatintyö tehty aiheesta: Hakukoneoptimointi Googlen hakukoneella. Sivuaineena tietojenkäsittelytieteenlaitoksen oma syventävä kurssikokonaisuus.</p>
 
-						<h2>Ty&ouml;kokemus</h2>
+							<h4>Oulun yliopisto, Tietojenkäisttelytiede, Maisteri 2017-</h4>
+							<p>Ensimmäinen maisterivuosi, pääaineena: Software Engineering (SE).</p>
 
-					</div>
+							<hr/>
 
-					<div class="twelve columns omega">
-
-						<h3>Ty&ouml;ss&auml;oppiminen: Raute Oyj, Mecano Group</h3>
-						<p>Olin kahdesti Mecanolla ty&ouml;ss&auml;oppimassa (4kk+2kk), jossa my&ouml;s tein n&auml;ytt&ouml;ty&ouml;ni. Yleisi&auml; ty&ouml;teht&auml;vi&auml; olivat muun muassa puuteollisuudessa k&auml;ytett&auml;vien laadunvalvontalaitteiden huolto- ja asennusty&ouml;t. N&auml;ytt&ouml;ty&ouml;ksi kasasin Smart-LED valoja ko. laitteisiin.</p>
-
-						<h3>Ty&ouml;ss&auml;oppiminen: Kajaanin AMK</h3>
-						<p>Olin my&ouml;s KAMK ty&ouml;ss&auml;oppimassa (2kk), jossa tutustuin Mac-ymp&auml;rist&ouml;&ouml;n ja elektronisiin komponentteihin.</p>
-
-						<h3>Kes&auml;ty&ouml;: Kajaanin Lehtikankaan S-market, 2009?</h3>
-						<p>Kes&auml;ty&ouml;setellill&auml;. Ty&ouml;teht&auml;v&auml;n&auml; hyllyjen t&auml;ytt&auml;minen.</p>
-
-						<h3>Kes&auml;ty&ouml;: L&amp;T rappu- ja asuntosiivooja, 2014</h3>
-						<p>Rappusiivous</p>
-
-						<h3>Kes&auml;ty&ouml;: RTK perussiivous, 2016</h3>
-						<p>Lattioiden koneellinen siivous ja vahaus.</p>
-
-
-					</div><!-- end tyokokemus -->
-
-					<hr/>
-
-					<div class="four columns alpha">
-
-						<h2>Kielitaito</h2>
+						</div>
 
 					</div>
 
-					<div class="twelve columns omega">
+					<div class="twelve columns cvContent">
 
-						<h3>Suomi</h3>
-						<p>&Auml;idinkieli.</p>
+						<div class="four columns ">
 
-						<h3>Englanti</h3>
-						<p>Suullinen hyv&auml; ja kirjoitettu/kuultu erinomainen.</p>
+							<h2>Työkokemus</h2>
 
-						<h3>Ruotsi</h3>
-						<p>Kohtalainen.</p>
+						</div>
 
-					</div>
+						<div class="eight columns cvContent-text">
 
-					<hr/>
+							<h4>OuLUMA-sivuston ylläpitäjä (Oulun yliopiston LUMA-keskus), 2017-</h4>
+							<p>Työtehtäviini kuuluu tietokannan ja mediatiedostojen varmuuskopiointi, 
+								SSL-sertifikaatin uusiminen, WordPress-teeman luominen, sen huoltaminen ja versionhallinta.</p>
 
-					<div class="four columns alpha">
+							<h4>Kesätyö: RTK perussiivous, 2016</h4>
+							<p>Lattioiden koneellinen siivous ja vahaus.</p>
 
-						<h2>Harrastukset</h2>
+							<h4>Kesätyö: L&amp;T rappu- ja asuntosiivooja, 2014</h4>
+							<p>Rappusiivous.</p>
 
-					</div>
+							<h4>Työssäoppiminen: Raute Oyj, Mecano Group, 2013</h4>
+							<p>Olin kahdesti Mecanolla työssäoppimassa (4kk + 2kk), jossa tein myös näyttötyöni. 
+								Yleisiä työtehtäviä olivat muun muassa puuteollisuudessa käytettävien laadunvalvontalaitteiden huolto- ja asennustyöt.
+								Näyttötyöksi kasasin Smart-LED valoja ko. laitteisiin.</p>
 
-					<div class="twelve columns omega">
+							<h4>Työssäoppiminen: Kajaanin AMK, 2012</h4>
+							<p>Olin myös KAMK työssäoppimassa (2kk), jossa tutustuin Mac-ympäristöön ja elektronisiin komponentteihin.</p>
 
-						<h3>Tietokoneilu</h3>
-						<p>2D/3D-pelien suunnitteleminen ja ohjelmoiminen: Unity3D + C#.
-						Web-sivujen koodaaminen ja suunnitteleminen.
-						3D-mallinnusta Blenderill&auml;.
-						Pelailu: MMO, FPS, RPG etc.
-						Streamailu twitch.comiin</p>
+							<h4>Kesätyö: Kajaanin Lehtikankaan S-market, 2009</h4>
+							<p>Kesätyösetellillä. Työtehtävänä hyllyjen täyttäminen.</p>
 
-						<h3>Liikuntaa</h3>
-						<p>Kasuaali j&auml;&auml;kiekkoilu talvisin.
-						Frisbeegolf kes&auml;isin.</p>
+							<hr/>
 
-						<h3>Musiikki</h3>
-						<p>Kitaran soittaminen.</p>
+						</div>
 
 					</div>
 
-					<hr/>
+					<div class="twelve columns cvContent">
 
-					<div class="four columns alpha">
+						<div class="four columns">
 
-						<h2>Muuta</h2>
+							<h2>Kielitaito</h2>
+
+						</div>
+
+						<div class="eight columns cvContent-text">
+
+							<h4>Suomi</h4>
+							<p>äidinkieli.</p>
+
+							<h4>Englanti</h4>
+							<p>Suullinen hyvä ja kirjoitettu/kuultu erinomainen.</p>
+
+							<h4>Ruotsi</h4>
+							<p>Kohtalainen.</p>
+
+							<hr/>
+
+						</div>
 
 					</div>
 
-					<div class="twelve columns omega">
+					<div class="twelve columns cvContent">
 
-						<h3>B-Ajokortti (autokortti)</h3>
+						<div class="four columns">
+
+							<h2>Harrastukset</h2>
+
+						</div>
+
+						<div class="eight columns cvContent-text">
+
+							<h4>Tietokoneilu</h4>
+							<p>2D/3D-pelien suunnitteleminen ja ohjelmoiminen: Unity3D + C#.
+							Web-sivujen koodaaminen ja suunnitteleminen.
+							3D-mallinnusta Blenderillä.
+							Pelailu: MMO, FPS, RPG etc.
+							Streamailu twitch.comiin</p>
+
+							<h4>Liikuntaa</h4>
+							<p>Kasuaali jääkiekkoilu talvisin.
+							Frisbeegolf kesäisin.</p>
+
+							<h4>Musiikki</h4>
+							<p>Kitaran soittaminen.</p>
+
+							<hr/>
+
+						</div>
 
 					</div>
 
-					<div class="sixteen columns topLink">
+					<div class="twelve columns cvContent">
 
-						<a href="#top" >Yl&ouml;s</a>
+						<div class="four columns">
+
+							<h2>Muuta</h2>
+
+						</div>
+
+						<div class="eight columns cvContent-text">
+
+							<h4>B-Ajokortti (autokortti)</h4>
+
+						</div>
+
+						<a href="#top" class="topLink">Ylös</a>
 
 					</div>
 
@@ -255,138 +274,152 @@
 
 	<div class="fullScreen-2"></div>
 
-	<div class="portfolioBand">
+	<div id="portfolioBand">
 
 		<div class="container">
 
-			<div class="sixteen columns">
+			<div class="twelve columns">
 
 				<div id="portfolioAnkkuri"></div>
 
 				<div class="portfolioStyle clearfix">
 
-					<header class="sixteen columns alpha">
+					<header class="twelve columns">
 
-						<h1>Portfolio (Web)</h1>
+						<h1>Portfolio (Web-kehitys)</h1>
+						<p>(Muut projektit voi löytää <a href="https://github.com/Baserfaz?tab=repositories">GitHubista</a>.)</p>
 
 					</header>
 
-                    <figure class="four columns alpha">
-                            <a title="klikkaa kuvaa" href="images/viimeinenpalvelus/img1.png" data-lightbox="viimeinenpalvelus" data-title="Keskeneräinen aloitus-sivu"><img class="thumbnailStyle" src="images/viimeinenpalvelus/img1.png" alt="Viimeinenpalvelus"></a>
-							<a href="images/viimeinenpalvelus/img2.png" data-lightbox="viimeinenpalvelus" data-title="Tilauksen ensimmäinen sivu."></a>
-							<a href="images/viimeinenpalvelus/suunnitelma.png" data-lightbox="viimeinenpalvelus" data-title="Suunnitelma."></a>
-					</figure>
+					<div class="twelve columns portfolioPost">
 
-					<div class="twelve columns omega">
-						<h3>Kouluprojektina: Viimeinenpalvelus.fi</h3>
-						<p>Tämä sivu suunniteltiin ja toteutettiin Oulun yliopiston (TOL) projekti 1 kurssilla. Sivusto on nykyisin muuttunut, mutta osia meidän suunnittelusta on jäänyt. Kuvia tulossa myöhemmin.</p>
-						<p>Sivustolla käytettiin bolt CMS (content management system) järjestelmää ja perus html/css/javascript tekniikoita.</p>
+						<div class="four columns">
+							<img class="thumbnailStyle" src="images/not_found.svg" alt="not found">
+						</div>
 
-					</div>
+						<div class="eight columns">
 
-					<hr/>
+							<h3>OuLUMA ja OuLUMA-blogi WordPress-teemat</h3>
+							<p>Oulun yliopiston LUMA-keskuksen sivuston ilmeen päivittäminen nykyisen Oulun yliopiston sivuston mukaiseksi.</p>
 
-					<div class="twelve columns omega">
-
-						<h3>Unity3D blogi</h3>
-						<p>Tämä sivu on tehty pelk&auml;st&auml;&auml;n k&auml;ytt&auml;en html ja css tekniikoita. Pyrin saamaan aikaiseksi CMS ilmeen ilman CMS:ää.</p>
-						<p>Kiva harjoitusprojekti. Sivua p&auml;&auml;see ihastelemaan <a href="http://baserfaz.github.io/unityBlog/">t&auml;st&auml;</a>.</p>
+						</div>
 
 					</div>
 
-					<hr/>
+					<div class="twelve columns portfolioPost">
 
-					<div class="twelve columns omega">
+						<div class="four columns">
+								<a title="klikkaa kuvaa" href="images/viimeinenpalvelus/img1.png" data-lightbox="viimeinenpalvelus" data-title="Keskeneräinen aloitus-sivu"><img class="thumbnailStyle" src="images/viimeinenpalvelus/img1.png" alt="Viimeinenpalvelus"></a>
+								<a href="images/viimeinenpalvelus/img2.png" data-lightbox="viimeinenpalvelus" data-title="Tilauksen ensimmäinen sivu."></a>
+								<a href="images/viimeinenpalvelus/suunnitelma.png" data-lightbox="viimeinenpalvelus" data-title="Suunnitelma."></a>
+						</div>
 
-						<h3>Projektit-sivu</h3>
-						<p>Yksinkertainen html/css-tekniikoilla rakennettu sivu, jonka teht&auml;v&auml;n&auml; on listata minun tekem&auml;t projektini.
-                        T&auml;ll&auml; hetkell&auml; ty&ouml;n alla on roguelike RPG. Sen l&auml;hdekoodi on saatavilla projektit sivulta ja GitHubista.</p>
-						<p>Sivu l&ouml;ytyy <a href="http://baserfaz.github.io/Projects/">t&auml;&auml;lt&auml;</a>.</p>
+						<div class="eight columns">
+							<h3>Kouluprojektina: Viimeinenpalvelus.fi</h3>
+							<p>Tämä sivu suunniteltiin ja toteutettiin Oulun yliopiston (TOL) projekti 1 kurssilla. Sivusto on nykyisin muuttunut, mutta osia meidän suunnittelusta on jäänyt. Kuvia tulossa myöhemmin.</p>
+							<p>Sivustolla käytettiin bolt CMS (content management system) järjestelmää ja perus html/css/javascript tekniikoita.</p>
+						</div>
+
+					</div>
+
+					<div class="twelve columns portfolioPost">
+
+						<div class="four columns">
+							<img class="thumbnailStyle" src="images/not_found.svg" alt="not found">
+						</div>
+
+						<div class="eight columns">
+
+							<h3>Unity3D blogi</h3>
+							<p>Tämä sivu on tehty pelkästään käyttäen html ja css tekniikoita. Pyrin saamaan aikaiseksi CMS ilmeen ilman CMS:ää.</p>
+							<p>Kiva harjoitusprojekti. Sivua pääsee ihastelemaan <a href="http://baserfaz.github.io/unityBlog/">tästä</a>.</p>
+
+						</div>
 
 					</div>
 
-					<hr/>
+					<div class="twelve columns portfolioPost">
 
+						<div class="four columns">
+							<img class="thumbnailStyle" src="images/not_found.svg" alt="not found">
+						</div>
 
-					<figure class="four columns alpha">
+						<div class="eight columns">
 
-						<a title="klikkaa kuvaa" href="images/skybleu/kuva1.png" data-lightbox="skybleu" data-title="SkyBleu WordPress aloitus-sivu"><img class="thumbnailStyle" src="images/skybleu/kuva1.png" alt="SkyBleu"></a>
-							<a href="images/skybleu/kuva2.png" data-lightbox="skybleu" data-title="SkyBleu WordPress aloitus-sivu"></a>
-							<a href="images/skybleu/kuva3.png" data-lightbox="skybleu" data-title="Blog post"></a>
-							<a href="images/skybleu/singlepage1.png" data-lightbox="skybleu" data-title="Blog Post Single.php"></a>
-							<a href="images/skybleu/singlepage2.png" data-lightbox="skybleu" data-title="Blog Post Single.php"></a>
-							<a href="images/skybleu/singlepage3.png" data-lightbox="skybleu" data-title="Blog Post Single.php"></a>
-							<a href="images/skybleu/singlepage4-quote.png" data-lightbox="skybleu" data-title="Blog Post Single.php Quote"></a>
-							<a href="images/skybleu/theme-select.png" data-lightbox="skybleu" data-title="WordPress Theme Select"></a>
-							<a href="images/skybleu/article-list.png" data-lightbox="skybleu" data-title="Article List"></a>
-					</figure>
+							<h3>Projektit-sivu</h3>
+							<p>Yksinkertainen html/css-tekniikoilla rakennettu sivu, jonka tehtävänä on listata minun tekemät projektini.
+							Tällä hetkellä työn alla on roguelike RPG. Sen lähdekoodi on saatavilla projektit sivulta ja GitHubista.</p>
+							<p>Sivu löytyy <a href="http://baserfaz.github.io/Projects/">täältä</a>.</p>
 
-					<div class="twelve columns omega">
-
-						<h3><i class="fa fa-wordpress"></i>&nbsp;SkyBleu - Blogiteema</h3>
-
-						<p>Suunnittelin ja toteutin minimalistisen blogiteeman WordPressiin (ei ole yleisess&auml; levityksess&auml;). Teemat toimivat WordPressiss&auml; alustoina blogeille ja internetsivuille. Teemaan sis&auml;ltyy visuaalinen ja tekninen puoli. Esimerkkin&auml; teknisest&auml; puolesta ovat dynaamisesti toimivat kommentit, blogipostaukset ja hakukent&auml;t.</p>
-
-						<p>Teemassa on yksi pitk&auml; gadget-paikka oikeassa sivupalkissa ja kolme pient&auml; paikkaa footerissa. Gadget-paikat ovat k&auml;ytt&auml;j&auml;n p&auml;&auml;tett&auml;viss&auml; olevia kentti&auml;, joihin voi lis&auml;t&auml; mit&auml; vain. Esimerkiksi teksti&auml;, linkkej&auml;, navigaatiovalikoita, sis&auml;&auml;nkirjautumiskentti&auml; jne.</p>
-
-						<p>Teema ei ole t&auml;ysin valmis, mutta projektin l&auml;hdetiedostot ovat kuitenkin ladattavissa ilmaiseksi <a href="https://github.com/Baserfaz/Skybleu-theme/tree/master"><i class="fa fa-github"></i>&nbsp;Githubissa</a>.</p>
-					</div>
-
-					<hr/>
-
-
-					<figure class="four columns alpha">
-
-						<a title ="klikkaa kuvaa" href="images/askmii/image1.png" data-lightbox="askmii" data-title="Askmii Homepage"><img class="thumbnailStyle" src="images/askmii/image1.png" alt="Askmii"></a>
-							<a href="images/askmii/image2.png" data-lightbox="askmii" data-title="Askmii Homepage posts"></a>
-							<a href="images/askmii/image3.png" data-lightbox="askmii" data-title="Askmii Homepage lomake"></a>
-							<a href="images/askmii/image4.png" data-lightbox="askmii" data-title="Askmii Homepage bottom"></a>
-
-					</figure>
-
-					<div class="twelve columns omega">
-
-						<h3><i class="fa fa-wordpress"></i>&nbsp;Askmii - Q&amp;A Internetsivu - UGC</h3>
-
-						<p>Askmii on vain tietokoneongelmiin tarkoitettu question &amp; answer-sivusto ja se on suunniteltu toteutettavaksi WordPress teemana. Sivusto on UGC (User Generated Content)-pohjainen eli k&auml;ytt&auml;j&auml;t luovat sivuston sis&auml;ll&ouml;n.</p>
-						<p>User Generated Content toteutetaan siten, ett&auml; ihmiset voivat vapaasti kysy&auml; ja vastata muiden viestiketjuihin (Vrt keskustelufoorumeihin).</p>
-						<p>Sivuston idea on se, ett&auml; sen k&auml;ytt&auml;minen on ilmaista, mutta sivustolla olisi muutama mainos.</p>
-						<p>Muita t&auml;llaisia sivustoja ovat muun muassa <a href="http://www.ask.fm">ask.fm</a> ja <a href="http://www.stackoverflow.com">stackoverflow.com</a></p>
-					</div>
-
-					<hr/>
-
-
-					<div class="twelve columns omega">
-
-						<h3><i class="fa fa-archive"></i>&nbsp;Vanhat projektit</h3>
-						<p>Vanhat projektit l&ouml;ytyv&auml;t minun <a href="https://github.com/Baserfaz/">github</a> sivulta.</p>
-					</div>
-
-					<!--<figure class="four columns alpha">
-
-							<a href="images/tyoajanseuranta.png" title="klikkaa kuvaa" data-lightbox="image-1" data-title="Työajanseurantalaskuri"><img class="thumbnailStyle" src="images/tyoajanseuranta.png" alt="tyoajanseuranta"></a>
-
-					</figure>
-
-					<div class="twelve columns omega">
-
-						<h3><i class="fa fa-archive"></i>&nbsp;Ty&ouml;aikalaskuri</h3>
-						<p>Hyvin yksinkertainen ja toimiva ty&ouml;aikalaskuri, johon sy&ouml;tet&auml;&auml;n ty&ouml;tunnit ja ohjelma laskee ne yhteen sekä antaa vastauksen tunteina (esim. yht: 7,5h).</p>
-
-						<p>Laskuriin voidaan lis&auml;t&auml; rivej&auml; "&auml;&auml;rett&ouml;m&auml;sti".
-						Ohjelma on toteutettu k&auml;ytt&auml;m&auml;ll&auml; HTML5, CSS3 ja jQuery&auml;.</p>
-
-						<p>Projekti l&ouml;ytyy <a href="https://github.com/Baserfaz/Tyoajanseuranta"><i class="fa fa-github"></i>&nbsp;GitHubista</a>.</p>
-						<p>Ohjeet: Lataa zip-tiedosto, pura se ja klikkaa index.html</p>
-
-					</div>-->
-
-					<div class="sixteen columns topLink">
-
-						<a href="#top" >Yl&ouml;s</a>
+						</div>
 
 					</div>
+
+					<div class="twelve columns portfolioPost">
+
+						<div class="four columns">
+
+							<a title="klikkaa kuvaa" href="images/skybleu/kuva1.png" data-lightbox="skybleu" data-title="SkyBleu WordPress aloitus-sivu"><img class="thumbnailStyle" src="images/skybleu/kuva1.png" alt="SkyBleu"></a>
+								<a href="images/skybleu/kuva2.png" data-lightbox="skybleu" data-title="SkyBleu WordPress aloitus-sivu"></a>
+								<a href="images/skybleu/kuva3.png" data-lightbox="skybleu" data-title="Blog post"></a>
+								<a href="images/skybleu/singlepage1.png" data-lightbox="skybleu" data-title="Blog Post Single.php"></a>
+								<a href="images/skybleu/singlepage2.png" data-lightbox="skybleu" data-title="Blog Post Single.php"></a>
+								<a href="images/skybleu/singlepage3.png" data-lightbox="skybleu" data-title="Blog Post Single.php"></a>
+								<a href="images/skybleu/singlepage4-quote.png" data-lightbox="skybleu" data-title="Blog Post Single.php Quote"></a>
+								<a href="images/skybleu/theme-select.png" data-lightbox="skybleu" data-title="WordPress Theme Select"></a>
+								<a href="images/skybleu/article-list.png" data-lightbox="skybleu" data-title="Article List"></a>
+						</div>
+
+						<div class="eight columns">
+
+							<h3><i class="fa fa-wordpress"></i> SkyBleu - Blogiteema</h3>
+							<p>Suunnittelin ja toteutin minimalistisen blogiteeman WordPressiin (ei ole yleisessä levityksessä). Teemat toimivat WordPressissä alustoina blogeille ja internetsivuille. Teemaan sisältyy visuaalinen ja tekninen puoli. Esimerkkinä teknisestä puolesta ovat dynaamisesti toimivat kommentit, blogipostaukset ja hakukentät.</p>
+							<p>Teemassa on yksi pitkä gadget-paikka oikeassa sivupalkissa ja kolme pientä paikkaa footerissa. Gadget-paikat ovat käyttäjän päätettävissä olevia kenttiä, joihin voi lisätä mitä vain. Esimerkiksi tekstiä, linkkejä, navigaatiovalikoita, sisäänkirjautumiskenttiä jne.</p>
+							<p>Teema ei ole täysin valmis, mutta projektin lähdetiedostot ovat kuitenkin ladattavissa ilmaiseksi <a href="https://github.com/Baserfaz/Skybleu-theme/tree/master">Githubissa</a>.</p>
+						
+						</div>
+
+					</div>
+
+
+					<div class="twelve columns portfolioPost">
+
+						<div class="four columns">
+
+							<a title ="klikkaa kuvaa" href="images/askmii/image1.png" data-lightbox="askmii" data-title="Askmii Homepage"><img class="thumbnailStyle" src="images/askmii/image1.png" alt="Askmii"></a>
+								<a href="images/askmii/image2.png" data-lightbox="askmii" data-title="Askmii Homepage posts"></a>
+								<a href="images/askmii/image3.png" data-lightbox="askmii" data-title="Askmii Homepage lomake"></a>
+								<a href="images/askmii/image4.png" data-lightbox="askmii" data-title="Askmii Homepage bottom"></a>
+
+						</div>
+
+						<div class="eight columns">
+
+							<h3><i class="fa fa-wordpress"></i> Askmii - Q&amp;A Internetsivu - UGC</h3>
+
+							<p>Askmii on vain tietokoneongelmiin tarkoitettu question &amp; answer-sivusto ja se on suunniteltu toteutettavaksi WordPress teemana. Sivusto on UGC (User Generated Content)-pohjainen eli käyttäjät luovat sivuston sisällön.</p>
+							<p>User Generated Content toteutetaan siten, että ihmiset voivat vapaasti kysyä ja vastata muiden viestiketjuihin (Vrt keskustelufoorumeihin).</p>
+							<p>Sivuston idea on se, että sen käyttäminen on ilmaista, mutta sivustolla olisi muutama mainos.</p>
+							<p>Muita tällaisia sivustoja ovat muun muassa <a href="http://www.ask.fm">ask.fm</a> ja <a href="http://www.stackoverflow.com">stackoverflow.com</a></p>
+						
+						</div>
+
+					</div>
+
+					<div class="twelve columns portfolioPost">
+
+						<div class="four columns">
+							<img class="thumbnailStyle" src="images/not_found.svg" alt="not found">
+						</div>
+
+						<div class="eight columns">
+							<h3><i class="fa fa-archive"></i> Vanhat projektit</h3>
+							<p>Vanhat projektit löytyvät minun <a href="https://github.com/Baserfaz/">GitHub</a> sivulta.</p>
+						</div>
+
+					</div>
+
+					<a href="#top" class="topLink">Ylös</a>
 
 				</div>
 
@@ -398,38 +431,40 @@
 
 	<div class="fullScreen-3"></div>
 
-	<div class="otayhteyttaBand">
+	<div id="otayhteyttaBand">
 
 		<div class="container">
 
-			<div class="sixteen columns">
+			<div class="twelve columns">
 
 				<div class="yhteysOtsikko">
 
-					<h2>Ota yhteytt&auml;</h2>
+					<h2>Ota yhteyttä</h2>
 
 				</div>
 
 			</div>
 
-			<div class="six columns alpha">
+			<div id="contactAnkkuri" class="twelve columns">
 
-				<div id="contactAnkkuri"></div>
+				<div class="four columns">
+					<img class="thumbnailStyle" src="images/contact_02.jpg" alt="ota yhteyttä-kuva">
+				</div>
 
-				<div class="contactStyle">
+				<div class="eight columns contactStyle">
 
 					<h3>Heikki Heiskanen</h3>
-					<p><i class="fa fa-envelope-o"></i>&nbsp;S&auml;hk&ouml;posti: <span>heikkiheiskanen(at)<wbr>hotmail.com</span></p>
-					<p><i class="fa fa-map-marker"></i>&nbsp;Postiosoite: <span>90520 Oulu</span></p>
+					<p><i class="fa fa-envelope-o fa-fw"></i> Sähköposti: <span>heikkiheiskanen (at) <wbr>hotmail (dot) com</span></p>
+					<p><i class="fa fa-map-marker fa-fw"></i> Postiosoite: <span>90570 Oulu</span></p>
 					<hr/>
 
 					<h3>Linkit:</h3>
 
 						<ul>
-							<li><i class="fa fa-linkedin"></i>&nbsp;<a href="http://fi.linkedin.com/pub/heikki-heiskanen/a1/675/140/">LinkedIn</a></li>
-							<li><i class="fa fa-facebook"></i>&nbsp;<a href="https://www.facebook.com/heikki.heiskanen.7">Facebook</a></li>
-							<li><i class="fa fa-twitter"></i>&nbsp;<a href="https://twitter.com/Baserfaz">Twitter</a></li>
-							<li><i class="fa fa-github"></i>&nbsp;<a href="https://github.com/Baserfaz/">Github</a></li>
+							<li><i class="fa fa-linkedin fa-fw"></i>&nbsp;<a href="http://fi.linkedin.com/pub/heikki-heiskanen/a1/675/140/">LinkedIn</a></li>
+							<li><i class="fa fa-facebook fa-fw"></i>&nbsp;<a href="https://www.facebook.com/heikki.heiskanen.7">Facebook</a></li>
+							<li><i class="fa fa-twitter fa-fw"></i>&nbsp;<a href="https://twitter.com/Baserfaz">Twitter</a></li>
+							<li><i class="fa fa-github fa-fw"></i>&nbsp;<a href="https://github.com/Baserfaz?tab=repositories">Github</a></li>
 						</ul>
 
 				</div>
@@ -440,13 +475,13 @@
 
 	</div> <!-- end otayhteyttaBand -->
 
-	<div class="mainFooterBand">
+	<div id="mainFooterBand">
 
 		<div class="container">
 
-			<footer class="sixteen columns">
+			<footer class="twelve columns">
 
-				<p>Copyright &copy; <a href="https://facebook.com/heikki.heiskanen.7">Heikki Heiskanen</a> 2017 - Made by using <a href="http://www.getskeleton.com/">Skeleton framework</a> - Images from <a href="http://pixabay.com/">Pixabay</a></p>
+				<p>Copyright &copy; 2017 <a href="https://facebook.com/heikki.heiskanen.7">Heikki Heiskanen</a></p>
 
 			</footer>
 

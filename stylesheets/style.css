@@ -1,74 +1,6 @@
-/*
-* Skeleton V1.2
-* Copyright 2011, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 6/20/2012
-*/
 
 /* #Site Styles
 ================================================== */
-	/* Yleiset */
-
-		html {
-			width: 100% !important;
-			margin: 0 !important;
-		}
-
-		body {
-			margin: 0 !important;
-			box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			-webkit-box-sizing: border-box;
-		}
-
-		body * {
-			font-family: 'Raleway', sans-serif;
-		}
-
-		hr {
-			margin: 30px 0;
-			box-shadow: 0px 3px 2px -1px #eee;
-			-moz-box-shadow: 0px 3px 2px -1px #eee;
-			-webkit-box-shadow: 0px 3px 2px -1px #eee;
-		}
-
-		p {
-			font-size: 1.5em;
-			line-height: 1.5em;
-			font-weight: 300;
-			letter-spacing: 1px;
-		}
-
-		h1,
-		h2,
-		h3,
-		h4 {
-			color: #3d3d3d;
-		}
-
-		h1,
-		h2 {
-			font-weight: 300;
-			line-height: 150%;
-		}
-
-		h2 {
-			font-size: 32px;
-		}
-
-		h3 {
-			font-weight: 300;
-			line-height: 125%;
-		}
-
-		h4 {
-			font-weight: 300;
-			line-height: 150%;
-			letter-spacing: 1px;
-		}
-
 
 	/* Inputs & buttons */
 		input[type="text"] {
@@ -118,20 +50,19 @@
 		color: #d1d1d1;
 	}
 
-
 	/* mainHeaderBand, logo, mainNavBar */
-		div.mainHeaderBand {
+		#mainHeaderBand {
 			position: fixed;
 			width: 100%;
 			z-index: 1;
 			padding: 7px 0;
-			background-color: #fff;
+			background-color: #1e90ff;
 		}
 
 		.logo h1 {
 			font-family: 'Ubuntu Mono', monospace;
 			position: relative;
-			color: #0f0f0f;
+			color: #fff;
 			text-align: center;
 			margin: 0;
 		}
@@ -140,7 +71,7 @@
 			text-decoration: none;
 		}
 
-		.logo:hover {
+		.logo h1:hover {
 			text-decoration: underline;
 		}
 
@@ -151,6 +82,7 @@
 		.mainNavBar ul li {
 			float: right;
 			padding: 0 1em;
+			margin: 0;
 		}
 
 		.mainNavBar ul li:first-child {
@@ -158,7 +90,7 @@
 		}
 
 		.mainNavBar ul li a {
-			color: #0f0f0f;
+			color: #fff;
 			text-decoration: none;
 			font-size: 1.5em;
 			line-height: 150%;
@@ -168,6 +100,10 @@
 
 		.mainNavBar ul li a:hover {
 			text-decoration: underline;
+		}
+
+		.cvContent {
+			margin: 1rem 0;
 		}
 
 	/* focusText */
@@ -193,9 +129,9 @@
 			right: 0;
 			left: 0;
 			top: 200px;
-			padding: 7px;
+			padding: 1rem;
 			text-align: center;
-			font-size: 28px;
+			font-size: 3rem;
 			line-height: 150%;
 			font-weight: 300;
 			color: #f9f9f9;
@@ -203,9 +139,9 @@
 		}
 
 		.focusText a {
-			text-decoration: none;
+			text-decoration: underline;
 			font-weight: 300;
-			color: #e1e1e1;
+			color: #f9f9f9;
 		}
 
 		.focusText a:hover {
@@ -217,25 +153,30 @@
 			margin: 35px 0;
 		}
 
-		.portfolioStyle h1 {
+		.portfolioStyle header h1 {
 			text-align: center;
 			margin-bottom: 28px;
 		}
 
-		.portfolioStyle img {
-			float: left;
-			height: auto;
-			width: 100%;
-
-			/* Box shadow */
-			box-shadow: 0px 3px 2px -1px #eee;
-			-webkit-box-shadow: 0px 3px 2px -1px #eee;
-			-moz-box-shadow: 0px 3px 2px -1px #eee;
+		.portfolioStyle header p {
+			text-align: center !important;
+			color: #777;
 		}
 
 		.portfolioStyle img:hover {
 			opacity: 0.8;
 			cursor: pointer;
+		}
+
+		.portfolioPost {
+			margin: 1rem 0;
+		}
+
+		.portfolioPost img {
+			width: 150px;
+			height: 150px;
+			border: 5px solid #eee;
+			border-radius: 50%;
 		}
 
 	/* cvStyle */
@@ -244,21 +185,18 @@
 		}
 
 	/* TopLink */
-		.topLink a {
-			display: inline-block;
+		.topLink {
 			float: right;
-			margin: 0;
+			margin: 1rem 0;
 			line-height: 150%;
 			font-size: 16px;
-			font-weight: 300;
 			text-decoration: none;
-			color: #aeaeae;
+			color: #0f0f0f;
 			letter-spacing: 1px;
 		}
 
-		.topLink a:hover {
+		.topLink:hover {
 			text-decoration: underline;
-			color: #777;
 		}
 
 	/* ThumbnailStyle */
@@ -270,27 +208,27 @@
 	/* ContactStyle */
 
 		.contactStyle h3 {
-			color: #777;
+			color: #0f0f0f;
 			text-align: left;
-			font-size: 21px;
+			font-size: 24px;
 			font-weight: 300;
 		}
 
 		.contactStyle p {
 			margin: 0;
-			color: #777;
+			color: #0f0f0f;
 			text-align: left;
-			font-size: 14px;
+			font-size: 16px;
 			font-weight: 300;
 			line-height: 28px;
 		}
 
 		.contactStyle a {
-			color: #777;
+			color: #0f0f0f;
 		}
 
 		.contactStyle span {
-			color: #333;
+			color: #0f0f0f;
 		}
 
 		.contactStyle ul li a {
@@ -321,13 +259,13 @@
 
 
 	/* MainFoooterBand */
-		div.mainFooterBand {
+		#mainFooterBand {
 			background-color: #2f2f2f;
 			position: relative;
 			width: 100%;
 		}
 
-		div.mainFooterBand p {
+		#mainFooterBand p {
 			text-align: center;
 			font-size: 14px;
 			line-height: 150%;
@@ -337,22 +275,22 @@
 			color: #f9f9f9;
 		}
 
-		.mainFooterBand a {
+		#mainFooterBand a {
 			color: #e1e1e1;
 		}
 
-		.mainFooterBand a:hover {
+		#mainFooterBand a:hover {
 			color: #ccc;
 		}
 
 	/* Bands */
-		.portfolioBand {
-			background-color: #f9f9f9;
+		#portfolioBand {	
+			background-color: #fff;
 			border-top: 1px solid #eee;
 			border-bottom: 1px solid #eee;
 		}
 
-		.portfolioBand p {
+		#portfolioBand p {
 			text-align: justify;
 		}
 
@@ -371,18 +309,33 @@
 			margin-bottom: 28px;
 		}
 
-		.otayhteyttaBand {
-			background-color: #f9f9f9;
-			border-top: 1px solid #eee;
+		#otayhteyttaBand {
+			background-color: #fff;
+			margin: 1rem 0;
+		}
+
+		#otayhteyttaBand img {
+			width: 250px;
+			height: 250px;
+			border-radius: 50%;
 		}
 
 		.focusTextBand {
 			background: #A6D4C5;
 		}
 
-		.cvBand {
-			background-color: #f9f9f9;
+		#cvBand {
+			background-color: #fff;
 		}
+
+		#cvme h4 {
+			margin: 0.5rem 0;
+			padding: 0;
+		}
+
+		.cvContent-text p {
+			font-size: 16px;
+		} 
 
 	/* Full screen */
 		.fullScreen {
@@ -391,7 +344,8 @@
 			height: 1000px;
 			position: relative;
 			background-color: #777;
-			background-image: url("../images/puut.jpg");	/* http://pixabay.com/fi/m%C3%A4nty-mets%C3%A4-pad-mets%C3%A4aukio-misty-273826/ */
+			/*background-image: url("../images/puut.jpg");	 http://pixabay.com/fi/m%C3%A4nty-mets%C3%A4-pad-mets%C3%A4aukio-misty-273826/ */
+			background-image: url("../images/mountains.jpg"); /*https://pixabay.com/en/mountains-cosmiques-ridge-1828596/*/
 			background-repeat: no-repeat;
 			background-attachment: fixed;
 		}
@@ -417,6 +371,10 @@
 			background-attachment: fixed;
 		}
 
+	.contactStyle ul {
+		list-style: none;
+	}	
+
 	/* Pakolliset kentät */
 	#pakko {
 		font-size: 14px;
@@ -432,13 +390,10 @@
 		text-align: justify;
 	}
 
-
 	/* center */
-
 	.center {
 		text-align: center;
 	}
-
 
 	/* list1 */
 	.list1 {
@@ -532,7 +487,7 @@
 			margin-bottom: 16px;
 		}
 
-		.portfolioBand p {
+		#portfolioBand p {
 			text-align: left;
 			margin: 16px 7px;
 		}
