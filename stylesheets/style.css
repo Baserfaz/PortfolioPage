@@ -36,11 +36,6 @@
 		}
 
 	/* Font Awesome */
-	.fa-star,
-	.fa-star-o,
-	.fa-star-half-o {
-		color: yellow !important;
-	}
 
 	.fa-wordpress {
 		color: #0085be;
@@ -57,7 +52,6 @@
 			z-index: 1;
 			padding: 7px 0;
 			background-color: rgba(30, 144, 255, 0.95);
-			/*background-color: #1e90ff;*/
 		}
 
 		.logo h1 {
@@ -107,6 +101,10 @@
 			margin: 1rem 0;
 		}
 
+		.cvContent h2 {
+			line-height: 100%;
+		}
+
 	/* focusText */
 		.focusText {
 			position: relative;
@@ -150,13 +148,13 @@
 		}
 
 	/* PortfolioStyle */
-		.portfolioStyle {
-			margin: 35px 0;
+
+		.portfolioStyle header {
+			margin-bottom: 2rem;
 		}
 
 		.portfolioStyle header h1 {
 			text-align: center;
-			margin-bottom: 28px;
 		}
 
 		.portfolioStyle header p {
@@ -173,16 +171,14 @@
 			margin: 1rem 0;
 		}
 
-		.portfolioPost img {
+		.portfolioPost img, 
+		#otayhteyttaBand img  {
 			width: 150px;
 			height: 150px;
+			display: block;
+			margin: 0 auto;
 			border: 5px solid #eee;
 			border-radius: 50%;
-		}
-
-	/* cvStyle */
-		.cvStyle {
-			margin: 35px 0;
 		}
 
 	/* TopLink */
@@ -251,7 +247,7 @@
 		}
 
 		.yhteysOtsikko h2 {
-			margin: 35px 0;
+			margin-bottom: 4rem;
 			color: #222;
 			text-align: center;
 			font-weight: 300;
@@ -287,8 +283,7 @@
 	/* Bands */
 		#portfolioBand {	
 			background-color: #fff;
-			border-top: 1px solid #eee;
-			border-bottom: 1px solid #eee;
+			margin: 5rem 0;
 		}
 
 		#portfolioBand p {
@@ -312,13 +307,7 @@
 
 		#otayhteyttaBand {
 			background-color: #fff;
-			margin: 1rem 0;
-		}
-
-		#otayhteyttaBand img {
-			width: 100%;
-			height: 100%;
-			border-radius: 50%;
+			margin: 5rem 0;
 		}
 
 		.focusTextBand {
@@ -327,6 +316,7 @@
 
 		#cvBand {
 			background-color: #fff;
+			margin: 5rem 0;
 		}
 
 		#cvme h4 {
@@ -341,13 +331,12 @@
 	/* Full screen */
 		.fullScreen {
 			overflow: hidden;
-			height: 100vh;
 			height: 1000px;
 			position: relative;
-			background-color: #777;
-			/*background-image: url("../images/puut.jpg");	 http://pixabay.com/fi/m%C3%A4nty-mets%C3%A4-pad-mets%C3%A4aukio-misty-273826/ */
+			background-color: #fff;
 			background-image: url("../images/mountains.jpg"); /*https://pixabay.com/en/mountains-cosmiques-ridge-1828596/*/
 			background-repeat: no-repeat;
+			background-position: 50% 50%;
 			background-attachment: fixed;
 		}
 
@@ -355,9 +344,10 @@
 			overflow: hidden;
 			height: 700px;
 			position: relative;
-			background-color: #777;
+			background-color: #fff;
 			background-image: url("../images/tyopoyta.jpg");	/* http://pixabay.com/fi/ty%C3%B6asema-kotitoimiston-tietokone-405768/ */
 			background-repeat: no-repeat;
+			background-position: 50% 50%;
 			background-attachment: fixed;
 		}
 
@@ -365,10 +355,10 @@
 			overflow: hidden;
 			height: 700px;
 			position: relative;
-			background-color: #777;
+			background-color: #fff;
 			background-image: url("../images/kannettava.jpg");	/* http://pixabay.com/fi/muistikirja-kannettava-tietokone-ty%C3%B6-405755/ */
 			background-repeat: no-repeat;
-			background-position: 100% 100%;
+			background-position: 50% 50%;
 			background-attachment: fixed;
 		}
 
@@ -414,128 +404,37 @@
 		margin: 14px auto;
 	}
 
-/* #Media Queries
-================================================== */
+/* Mobile first queries */
 
-	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {}
+/* Larger than mobile */
+@media (min-width: 400px) {
 
-	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {}
-
-	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {
-
-
-
-		.fullScreen {
-			background-position: 100% 0%;
-			height: 600px;
-		}
-
-		.fullScreen-2 {
-			background-position: 70% 80%;
-		}
-
-		.fullScreen-3 {
-			background-position: 65% 80%;
-		}
-
-		.imageInfo {
-			float: left !important;
-			font-size: 12px !important;
-		}
-
-		.navigation nav select {
-			display: block;
-		}
-
-		.navigation nav ul {
-			display: none;
-		}
-
-		.focusText h1 {
-			font-size: 50px !important;
-			line-height: 100px !important;
-		}
-
-		.cvStyle {
-			margin: 35px 5px;
-		}
-
-		p {
-			font-size: 18px !important;
-		}
-
-		h1 {
-			font-size: 28px !important;
-		}
-
-		h2 {
-			font-size: 21px !important;
-			font-weight: 400;
-		}
-
-		h3 {
-			font-size: 21px !important;
-		}
-
-		.topLink a {
-			margin-right: 7px;
-		}
-
-		.portfolioStyle img {
-			margin-bottom: 16px;
-		}
-
-		#portfolioBand p {
-			text-align: left;
-			margin: 16px 7px;
-		}
-
-		.blueBg p {
-			margin: auto 7px;
-			text-align: left;
-		}
-
-		.blueBg h2 {
-			margin: 16px 7px;
-		}
-
-		.blueBg h4 {
-			margin-top: 16px;
-		}
-
-		input,
-		textarea {
-			width: 90% !important;
-		}
-
-		textarea {
-			margin-bottom: 0;
-		}
-
-		button {
-			width: 90% !important;
-			margin: 16px 0 !important;
-		}
-
-		.contactStyle h3,
-		.contactStyle p,
-		.contactStyle ul {
-			text-align: center;
-		}
-
-		.mainFooterBand p {
-			font-size: 14px !important;
-		}
-
+	.portfolioPost img {
+		margin-bottom: 2rem;
 	}
 
-	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+
+	.cvContent h2 {
+		font-size: 2.5rem;
 	}
 
-	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+	.cvContent h2 {
+		font-size: 3.5rem;
 	}
+
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
