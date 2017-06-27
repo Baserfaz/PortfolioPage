@@ -1,7 +1,5 @@
-// JQUERY CODE
-//
 // Heikki Heiskanen | Portfolio webpage
-// 2014
+// 2017
 
 //slidedown & slideup animaatio (piilottaa ja tuo esiin elementin)
 var toggle = 0;
@@ -15,7 +13,6 @@ $('').click(function() {
 		toggle=0;
 	}
 });
-
 
 //navbar smooth scroll
 $('a[href*=#]:not([href=#])').click(function() {

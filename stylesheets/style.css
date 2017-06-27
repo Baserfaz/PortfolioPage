@@ -444,7 +444,6 @@
 	.cvContent h2 {
 		font-size: 3.5rem;
 	}
-
 }
 
 /* Larger than desktop */
@@ -452,3 +451,16 @@
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+/* Desktop first */
+
+@media (max-width: 550px) {
+
+	.mainNavBar ul {
+		display: none;
+	}
+
+	.navigation nav select {
+		display: initial;
+	}
+}
