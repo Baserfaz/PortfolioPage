@@ -37,8 +37,14 @@
 
 	/* Font Awesome */
 
-	.fa-wordpress {
-		color: #0085be;
+	.fa-wordpress,
+	.fa-envelope-o,
+	.fa-map-marker,
+	.fa-linkedin,
+	.fa-facebook,
+	.fa-twitter,
+	.fa-github {
+		color: #1E90FF;
 	}
 
 	.fa-archive {
@@ -168,7 +174,7 @@
 		}
 
 		.portfolioPost {
-			margin: 1rem 0;
+			margin: 3rem 0;
 		}
 
 		.portfolioPost img, 
@@ -176,7 +182,7 @@
 			width: 150px;
 			height: 150px;
 			display: block;
-			margin: 0 auto;
+			margin: 0 auto 2rem auto;
 			border: 5px solid #eee;
 			border-radius: 50%;
 		}
@@ -203,6 +209,10 @@
 	}
 
 	/* ContactStyle */
+
+		.contactStyle {
+			margin-top: 0;
+		}
 
 		.contactStyle h3 {
 			color: #0f0f0f;
@@ -246,8 +256,17 @@
 			-webkit-box-shadow: 0 2px 2px #eee;
 		}
 
+		.contactStyle ul {
+			list-style: none;
+		}	
+
+		.contactStyle ul li {
+			float: left;
+			margin-right: 1rem;
+		}
+
 		.yhteysOtsikko h2 {
-			margin-bottom: 4rem;
+			margin-bottom: 5rem;
 			color: #222;
 			text-align: center;
 			font-weight: 300;
@@ -362,10 +381,6 @@
 			background-attachment: fixed;
 		}
 
-	.contactStyle ul {
-		list-style: none;
-	}	
-
 	/* Pakolliset kentät */
 	#pakko {
 		font-size: 14px;
@@ -412,7 +427,6 @@
 	.portfolioPost img {
 		margin-bottom: 2rem;
 	}
-
 }
 
 /* Larger than phablet */
@@ -421,7 +435,6 @@
 	.cvContent h2 {
 		font-size: 2.5rem;
 	}
-
 }
 
 /* Larger than tablet */
