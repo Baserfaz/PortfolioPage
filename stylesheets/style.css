@@ -127,7 +127,7 @@
 			line-height: 150%;
 			text-align: center;
 			color: #f9f9f9;
-			background-color: rgba( 75, 75, 75, 0.5);
+			background-color: rgba( 0, 0, 0, 0.3);
 		}
 
 		.focusText p {
@@ -141,7 +141,7 @@
 			line-height: 150%;
 			font-weight: 300;
 			color: #f9f9f9;
-			background-color: rgba( 75, 75, 75, 0.5);
+			background-color: rgba( 0, 0, 0, 0.3);
 		}
 
 		.focusText a {
@@ -354,7 +354,8 @@
 			height: 1000px;
 			position: relative;
 			background-color: #fff;
-			background-image: url("../images/mountains.jpg"); /*https://pixabay.com/en/mountains-cosmiques-ridge-1828596/*/
+			/*background-image: url("../images/mountains.jpg"); */ /*https://pixabay.com/en/mountains-cosmiques-ridge-1828596/*/
+			background-image: url("../images/cottage/laituri_v2.jpg");
 			background-repeat: no-repeat;
 			background-position: 50% 50%;
 			background-attachment: fixed;
@@ -365,7 +366,8 @@
 			height: 700px;
 			position: relative;
 			background-color: #fff;
-			background-image: url("../images/tyopoyta.jpg");	/* http://pixabay.com/fi/ty%C3%B6asema-kotitoimiston-tietokone-405768/ */
+			/*background-image: url("../images/tyopoyta.jpg");*/	/* http://pixabay.com/fi/ty%C3%B6asema-kotitoimiston-tietokone-405768/ */
+			background-image: url("../images/cottage/rakennukset_v2.jpg");
 			background-repeat: no-repeat;
 			background-position: 50% 50%;
 			background-attachment: fixed;
@@ -376,7 +378,8 @@
 			height: 700px;
 			position: relative;
 			background-color: #fff;
-			background-image: url("../images/kannettava.jpg");	/* http://pixabay.com/fi/muistikirja-kannettava-tietokone-ty%C3%B6-405755/ */
+			/*background-image: url("../images/kannettava.jpg");*/	/* http://pixabay.com/fi/muistikirja-kannettava-tietokone-ty%C3%B6-405755/ */
+			background-image: url("../images/cottage/sauna_v2.jpg");
 			background-repeat: no-repeat;
 			background-position: 50% 50%;
 			background-attachment: fixed;
