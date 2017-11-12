@@ -53,18 +53,18 @@
 
 	/* mainHeaderBand, logo, mainNavBar */
 		#mainHeaderBand {
-			/*position: fixed;*/
 			position: relative;
 			width: 100%;
 			z-index: 1;
 			padding: 7px 0;
-			background-color: rgba(30, 144, 255, 0.95);
+			background-color: #fff;
+			/* background-color: rgba(30, 144, 255, 0.95); */
 		}
 
 		.logo h1 {
 			font-family: 'Ubuntu Mono', monospace;
 			position: relative;
-			color: #fff;
+			color: #333;
 			text-align: center;
 			margin: 0;
 		}
@@ -92,7 +92,7 @@
 		}
 
 		.mainNavBar ul li a {
-			color: #fff;
+			color: #333;
 			text-decoration: none;
 			font-size: 1.5em;
 			line-height: 150%;
@@ -363,7 +363,7 @@
 
 		.fullScreen-2 {
 			overflow: hidden;
-			height: 700px;
+			height: 200px;
 			position: relative;
 			background-color: #fff;
 			/*background-image: url("../images/tyopoyta.jpg");*/	/* http://pixabay.com/fi/ty%C3%B6asema-kotitoimiston-tietokone-405768/ */
@@ -375,7 +375,7 @@
 
 		.fullScreen-3 {
 			overflow: hidden;
-			height: 700px;
+			height: 200px;
 			position: relative;
 			background-color: #fff;
 			/*background-image: url("../images/kannettava.jpg");*/	/* http://pixabay.com/fi/muistikirja-kannettava-tietokone-ty%C3%B6-405755/ */
