@@ -203,6 +203,13 @@
 			text-decoration: underline;
 		}
 
+	.content_ul {
+		padding: 1rem 0 1rem 3rem;
+		border-radius: 10px;
+		border: 1px solid #f0f0f0;
+		background-color: #f5f5f5;
+	}
+
 	/* ThumbnailStyle */
 	.thumbnailStyle {
 		width: 100%;
@@ -346,6 +353,7 @@
 
 		.cvContent-text p {
 			font-size: 16px;
+			text-align: justify;
 		} 
 
 	/* Full screen */
