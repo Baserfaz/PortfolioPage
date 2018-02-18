@@ -36,7 +36,6 @@
 		}
 
 	/* Font Awesome */
-
 	.fa-wordpress,
 	.fa-envelope-o,
 	.fa-map-marker,
@@ -371,25 +370,25 @@
 
 		.fullScreen-2 {
 			overflow: hidden;
-			height: 200px;
+			height: 400px;
 			position: relative;
 			background-color: #fff;
 			/*background-image: url("../images/tyopoyta.jpg");*/	/* http://pixabay.com/fi/ty%C3%B6asema-kotitoimiston-tietokone-405768/ */
 			background-image: url("../images/cottage/rakennukset_v2.jpg");
 			background-repeat: no-repeat;
-			background-position: 50% 50%;
+			background-position: 50% 70%;
 			background-attachment: fixed;
 		}
 
 		.fullScreen-3 {
 			overflow: hidden;
-			height: 200px;
+			height: 400px;
 			position: relative;
 			background-color: #fff;
 			/*background-image: url("../images/kannettava.jpg");*/	/* http://pixabay.com/fi/muistikirja-kannettava-tietokone-ty%C3%B6-405755/ */
 			background-image: url("../images/cottage/sauna_v2.jpg");
 			background-repeat: no-repeat;
-			background-position: 50% 50%;
+			background-position: 50% 70%;
 			background-attachment: fixed;
 		}
 
