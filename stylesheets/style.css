@@ -1,468 +1,230 @@
-
-/* #Site Styles
-================================================== */
-
-	/* Inputs & buttons */
-		input[type="text"] {
-			width: 100% !important;
-			line-height: 150% !important;
-			font-weight: 300 !important;
-			font: 16px 'Open Sans', sans-serif;
-		}
-
-		button {
-			width: 100% !important;
-			line-height: 150% !important;
-			font-size: 16px !important;
-		}
-
-		button[type="submit"] {
-			background: none;
-			background-color: #fff !important;
-			font-weight: 300;
-		}
-
-		button[type="submit"]:hover {
-			box-shadow: inset 0 3px 2px -1px #eee;
-		}
-
-		textarea {
-			width: 100% !important;
-			line-height: 150% !important;
-			font-size: 16px !important;
-			font-weight: 300;
-			height: 200px !important;
-			resize: none !important;
-		}
-
-	/* Font Awesome */
-	.fa-wordpress,
-	.fa-envelope-o,
-	.fa-map-marker,
-	.fa-linkedin,
-	.fa-facebook,
-	.fa-twitter,
-	.fa-github {
-		color: #1E90FF;
-	}
-
-	.fa-archive {
-		color: #d1d1d1;
-	}
-
-	/* mainHeaderBand, logo, mainNavBar */
-		#mainHeaderBand {
-			position: relative;
-			width: 100%;
-			z-index: 1;
-			padding: 7px 0;
-			background-color: #fff;
-			/* background-color: rgba(30, 144, 255, 0.95); */
-		}
-
-		.logo h1 {
-			font-family: 'Ubuntu Mono', monospace;
-			position: relative;
-			color: #333;
-			text-align: center;
-			margin: 0;
-		}
-
-		.logo a {
-			text-decoration: none;
-		}
-
-		.logo h1:hover {
-			text-decoration: underline;
-		}
-
-		.mainNavBar ul {
-			list-style-type: none;
-		}
-
-		.mainNavBar ul li {
-			float: right;
-			padding: 0 1em;
-			margin: 0;
-		}
-
-		.mainNavBar ul li:first-child {
-			border-right: none;
-		}
-
-		.mainNavBar ul li a {
-			color: #333;
-			text-decoration: none;
-			font-size: 1.5em;
-			line-height: 150%;
-			font-weight: 300;
-			font-family: 'Ubuntu Mono', monospace;
-		}
-
-		.mainNavBar ul li a:hover {
-			text-decoration: underline;
-		}
-
-		.cvContent {
-			margin: 1rem 0;
-		}
-
-		.cvContent h2 {
-			line-height: 100%;
-		}
-
-	/* focusText */
-		.focusText {
-			position: relative;
-			margin-top: 200px;
-		}
-
-		.focusText h1 {
-			position: absolute;
-			right: 0;
-			left: 0;
-			top: 50px;
-			font-size: 8rem;
-			line-height: 150%;
-			text-align: center;
-			color: #f9f9f9;
-			background-color: rgba( 0, 0, 0, 0.3);
-		}
-
-		.focusText p {
-			position: absolute;
-			right: 0;
-			left: 0;
-			top: 200px;
-			padding: 1rem;
-			text-align: center;
-			font-size: 3rem;
-			line-height: 150%;
-			font-weight: 300;
-			color: #f9f9f9;
-			background-color: rgba( 0, 0, 0, 0.3);
-		}
-
-		.focusText a {
-			text-decoration: underline;
-			font-weight: 300;
-			color: #f9f9f9;
-		}
-
-		.focusText a:hover {
-			text-decoration: underline;
-		}
-
-	/* PortfolioStyle */
-
-		.portfolioStyle header {
-			margin-bottom: 2rem;
-		}
-
-		.portfolioStyle header h1 {
-			text-align: center;
-		}
-
-		.portfolioStyle header p {
-			text-align: center !important;
-			color: #777;
-		}
-
-		.portfolioStyle img:hover {
-			opacity: 0.8;
-			cursor: pointer;
-		}
-
-		.portfolioPost {
-			margin: 3rem 0;
-		}
-
-		.portfolioPost img, 
-		#otayhteyttaBand img  {
-			width: 150px;
-			height: 150px;
-			display: block;
-			margin: 0 auto 2rem auto;
-			border: 5px solid #eee;
-			border-radius: 50%;
-		}
-
-	/* TopLink */
-		.topLink {
-			float: right;
-			margin: 1rem 0;
-			line-height: 150%;
-			font-size: 16px;
-			text-decoration: none;
-			color: #0f0f0f;
-			letter-spacing: 1px;
-		}
-
-		.topLink:hover {
-			text-decoration: underline;
-		}
-
-	.content_ul {
-		padding: 1rem 0 1rem 3rem;
-		border-radius: 10px;
-		border: 1px solid #f0f0f0;
-		background-color: #f5f5f5;
-	}
-
-	/* ThumbnailStyle */
-	.thumbnailStyle {
-		width: 100%;
-		height: 100%;
-	}
-
-	/* ContactStyle */
-
-		.contactStyle {
-			margin-top: 0;
-		}
-
-		.contactStyle h3 {
-			color: #0f0f0f;
-			text-align: left;
-			font-size: 24px;
-			font-weight: 300;
-		}
-
-		.contactStyle p {
-			margin: 0;
-			color: #0f0f0f;
-			text-align: left;
-			font-size: 16px;
-			font-weight: 300;
-			line-height: 28px;
-		}
-
-		.contactStyle a {
-			color: #0f0f0f;
-		}
-
-		.contactStyle span {
-			color: #0f0f0f;
-		}
-
-		.contactStyle ul li a {
-			font-weight: 300;
-			line-height: 150%;
-			text-decoration: none;
-		}
-
-		.contactStyle ul li a:hover {
-			text-decoration: underline;
-		}
-
-
-		.contactStyle hr {
-			margin: 14px 0;
-			box-shadow: 0 2px 2px #eee;
-			-moz-box-shadow: 0 2px 2px #eee;
-			-webkit-box-shadow: 0 2px 2px #eee;
-		}
-
-		.contactStyle ul {
-			list-style: none;
-		}	
-
-		.contactStyle ul li {
-			float: left;
-			margin-right: 1rem;
-		}
-
-		.yhteysOtsikko h2 {
-			margin-bottom: 5rem;
-			color: #222;
-			text-align: center;
-			font-weight: 300;
-			letter-spacing: 2px;
-		}
-
-
-	/* MainFoooterBand */
-		#mainFooterBand {
-			background-color: #2f2f2f;
-			position: relative;
-			width: 100%;
-		}
-
-		#mainFooterBand p {
-			text-align: center;
-			font-size: 14px;
-			line-height: 150%;
-			font-weight: 300;
-			padding: 35px;
-			margin-bottom: 0;
-			color: #f9f9f9;
-		}
-
-		#mainFooterBand a {
-			color: #e1e1e1;
-		}
-
-		#mainFooterBand a:hover {
-			color: #ccc;
-		}
-
-	/* Bands */
-		#portfolioBand {	
-			background-color: #fff;
-			margin: 5rem 0;
-		}
-
-		#portfolioBand p {
-			text-align: justify;
-		}
-
-		.taitoniBand {
-			background-color: #fff;
-			margin: 35px auto;
-		}
-
-		.taitoniBand h1 {
-			text-align: center;
-			margin-bottom: 28px;
-		}
-
-		.taitoniBand h2 {
-			text-align: center;
-			margin-bottom: 28px;
-		}
-
-		#otayhteyttaBand {
-			background-color: #fff;
-			margin: 5rem 0;
-		}
-
-		.focusTextBand {
-			background: #A6D4C5;
-		}
-
-		#cvBand {
-			background-color: #fff;
-			margin: 5rem 0;
-		}
-
-		#cvme h4 {
-			margin: 0.5rem 0;
-			padding: 0;
-		}
-
-		.cvContent-text p {
-			font-size: 16px;
-			text-align: justify;
-		} 
-
-	/* Full screen */
-		.fullScreen {
-			overflow: hidden;
-			height: 1000px;
-			position: relative;
-			background-color: #fff;
-			/*background-image: url("../images/mountains.jpg"); */ /*https://pixabay.com/en/mountains-cosmiques-ridge-1828596/*/
-			background-image: url("../images/cottage/laituri_v2.jpg");
-			background-repeat: no-repeat;
-			background-position: 50% 50%;
-			background-attachment: fixed;
-		}
-
-		.fullScreen-2 {
-			overflow: hidden;
-			height: 400px;
-			position: relative;
-			background-color: #fff;
-			/*background-image: url("../images/tyopoyta.jpg");*/	/* http://pixabay.com/fi/ty%C3%B6asema-kotitoimiston-tietokone-405768/ */
-			background-image: url("../images/cottage/rakennukset_v2.jpg");
-			background-repeat: no-repeat;
-			background-position: 50% 70%;
-			background-attachment: fixed;
-		}
-
-		.fullScreen-3 {
-			overflow: hidden;
-			height: 400px;
-			position: relative;
-			background-color: #fff;
-			/*background-image: url("../images/kannettava.jpg");*/	/* http://pixabay.com/fi/muistikirja-kannettava-tietokone-ty%C3%B6-405755/ */
-			background-image: url("../images/cottage/sauna_v2.jpg");
-			background-repeat: no-repeat;
-			background-position: 50% 70%;
-			background-attachment: fixed;
-		}
-
-	/* Pakolliset kentät */
-	#pakko {
-		font-size: 14px;
-	}
-
-	/* BlueBg */
-	.blueBg h3,
-	.blueBg h2 {
-		text-align: left;
-	}
-
-	.blueBg p {
-		text-align: justify;
-	}
-
-	/* center */
-	.center {
-		text-align: center;
-	}
-
-	/* list1 */
-	.list1 {
-		list-style-type: circle;
-		margin-left: 5rem;
-	}
-
-	.list1 p a {
-		text-decoration: underline;
-	}
-
-	/* navigation select */
-	.navigation nav select {
-		display: none;
-		height: 36px;
-		width: 100%;
-		margin: 14px auto;
-	}
-
-/* Mobile first queries */
-
-/* Larger than mobile */
-@media (min-width: 400px) {
-
-	.portfolioPost img {
-		margin-bottom: 2rem;
-	}
+* {
+	font-family: raleway;
 }
 
-/* Larger than phablet */
-@media (min-width: 550px) {
-
-	.cvContent h2 {
-		font-size: 2.5rem;
-	}
+.fa-wordpress,
+.fa-envelope-o,
+.fa-map-marker,
+.fa-linkedin,
+.fa-facebook,
+.fa-twitter,
+.fa-github,
+.fa-phone {
+	color: #1E90FF;
 }
 
-/* Larger than tablet */
-@media (min-width: 750px) {
-
-	.cvContent h2 {
-		font-size: 3.5rem;
-	}
+.fa-archive {
+	color: #d1d1d1;
 }
 
-/* Larger than desktop */
-@media (min-width: 1000px) {}
+#mainHeaderBand {
+	display: grid;
+	grid: 1fr / 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+	padding: 1rem 0;
+}
 
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+.logo h1 {
+	font-family: 'Ubuntu Mono', monospace;
+	position: relative;
+	color: #333;
+	text-align: center;
+	margin: 0;
+}
 
-/* Desktop first */
+.logo a {
+	text-decoration: none;
+}
+
+.logo h1:hover {
+	text-decoration: underline;
+}
+
+.logo a:visited {
+	color: #333;
+}
+
+.mainNavBar ul {
+	list-style-type: none;
+}
+
+.mainNavBar ul li {
+	float: right;
+	padding: 0 1em;
+	margin: 0;
+}
+
+.mainNavBar ul li a {
+	color: #333;
+	text-decoration: none;
+	font-weight: 300;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+.mainNavBar ul li a:hover {
+	text-decoration: underline;
+}
+
+.topLink {
+	float: right;
+	margin: 1rem 0;
+	line-height: 150%;
+	font-size: 16px;
+	text-decoration: none;
+	color: #0f0f0f;
+	letter-spacing: 1px;
+}
+
+.topLink:hover {
+	text-decoration: underline;
+}
+
+.content_ul {
+	padding: 1rem 0 1rem 3rem;
+	border-radius: 10px;
+	border: 1px solid #f0f0f0;
+	background-color: #f5f5f5;
+}
+
+.noUnderline {
+	text-decoration: none;
+}
+
+.noUnderline:hover {
+	text-decoration: underline;
+}
+
+#contactCard {
+    display: grid;
+    grid: 1fr / 1fr 1fr;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.thumbnailImg {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	justify-self: end;
+	align-self: start;
+}
+
+#contactInfo {
+	justify-self: left;
+}
+
+#contactInfo h3 {
+	color: #0f0f0f;
+	text-align: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 0 0 1rem 0;
+}
+
+#contactInfo p {
+	margin: 0;
+	color: #0f0f0f;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 28px;
+}
+
+#contactInfo ul li a {
+	font-weight: 300;
+	line-height: 150%;
+	text-decoration: none;
+}
+
+#contactInfo a {
+	color: #0f0f0f;
+}
+
+#contactInfo ul li a:hover {
+	text-decoration: underline;
+}
+
+#contactInfo ul {
+	list-style: none;
+	margin: 0;
+    padding: 0;
+}	
+
+#contactInfo hr {
+	border: 1px solid #ececec;
+}
+
+#contactInfo ul li {
+	float: left;
+	margin-right: 1rem;
+}
+
+.heading {
+	margin-bottom: 5rem;
+	color: #222;
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+footer {
+	background-color: #111;
+}
+
+footer p {
+	text-align: center;
+	font-size: 14px;
+	line-height: 150%;
+	font-weight: 300;
+	padding: 35px;
+	margin-bottom: 0;
+	color: #f9f9f9;
+}
+
+#contacts {
+	background-color: #fff;
+	margin: 5rem 0;
+}
+
+.fullScreen {
+	position: relative;
+	overflow: hidden;
+	height: 700px;
+	background-color: #fff;
+	background-image: url("../images/cottage/laituri_v2.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% -100px;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.banner {
+	padding: 1rem;
+	margin: 0;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 300;
+	color: #f9f9f9;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
+	
+}
+
+.banner h1 {
+	margin: 1rem 0;
+}
+
+.navigation nav select {
+	display: none;
+	height: 36px;
+	width: 100%;
+	margin: 14px auto;
+}
+
+.highlight {
+	border-bottom: 5px solid rgb(255, 174, 0);
+	color: rgb(255, 174, 0);
+}
 
 @media (max-width: 550px) {
 
